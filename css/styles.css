@@ -1697,6 +1697,17 @@ pre code {
   vertical-align: top;
   border-top: 1px solid #dee2e6;
 }
+
+td {
+    padding: 1rem;
+	text-align: center;
+	word-wrap:break-word;
+	width: 30rem;
+}
+
+table-layout:fixed;
+
+
 .table thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #dee2e6;
@@ -9949,7 +9960,7 @@ blockquote {
 
   tr,
 img {
-    page-break-inside: avoid;
+	page-break-inside: avoid;
   }
 
   p,
